@@ -4,54 +4,64 @@ export const translations = {
     en: {
         hero: {
             title: "TAMANEGI",
-            subtitle: "Peel the layers of trust.\nA protocol to visualize \"Onion Identity\" and tokenize emotional labor.",
-            readWhitepaper: "Read Whitepaper"
+            badge: "Communication Economy",
+            subtitle: "A closed, real-first network that pays for deep listening.\nVisualize your Onion Identity, reward peeling, and rebuild communities by purpose instead of constraint.",
+            readWhitepaper: "Read the Whitepaper",
+            secondaryCta: "See the product pillars"
         },
         sections: {
             gap: {
-                title: "The Structural Gap",
+                title: "Two Structural Fractures",
                 cards: [
                     {
                         title: "Communities by Constraint",
-                        text: "Schools and workplaces are formed by external constraints (location, exams, hiring), not by purpose. We are often trapped in \"boxes\" where our values do not resonate."
+                        text: "Schools and workplaces are sorted by exams, hiring filters, and geography. We sit in the same rooms without aligned purposes or resonance."
                     },
                     {
-                        title: "Undervalued Connection",
-                        text: "Listening, empathy, and emotional support are essential but economically invisible. Society lacks a mechanism to value and reward the labor of deep communication."
+                        title: "Communication Without Economics",
+                        text: "Listening, empathy, and care labor keep teams alive yet stay invisible on payrolls. There is no rational reward for deep communication."
+                    },
+                    {
+                        title: "High-Cost Disclosure",
+                        text: "Sharing trauma or context is risky and time-heavy. Without safety rails, people withhold their layers; misalignment becomes structural."
                     }
                 ]
             },
             solution: {
-                title: "The Solution",
+                title: "Our Architecture",
                 cards: [
                     {
                         title: "Onion Identity",
-                        text: "We are multi-layered beings. Tamanegi visualizes your values, traumas, and aspirations as layers, moving beyond static labels like job titles or degrees."
-                    },
-                    {
-                        title: "Synergy Layer",
-                        text: "Reorganizing communities based on resonance. Connecting people not by where they are forced to be, but by the harmony of their inner layers."
+                        text: "A layered profile of values, wounds, boundaries, and aspirations—beyond static labels like job titles or degrees."
                     },
                     {
                         title: "Communication Economy",
-                        text: "Giving economic rationality to \"Peeling\". Turning the act of facing each other and sharing burdens into a tangible asset."
+                        text: "Peeling sessions turn mutual disclosure into tokenized proof. Heavier layers are weighted higher to reverse structural disadvantages."
+                    },
+                    {
+                        title: "Synergy Layer",
+                        text: "Use identity + interaction history to assemble communities by resonance, not assignment. Purpose-first cohorts over constraint-first boxes."
                     }
                 ]
             },
             product: {
-                title: "The Product",
+                title: "The Product: Tamanegi App",
                 mainCard: {
-                    title: "Real-Life First, Closed SNS",
-                    text: "You can only connect with people you have met in real life. Tamanegi is not a substitute for meeting, but a \"second layer\" to deepen relationships formed in the physical world. Trust is rooted in physical existence."
+                    title: "Real-Life-First Closed Network",
+                    text: "You can only friend people you have met offline. The app is the “second layer” after a real encounter, keeping trust anchored in physical presence."
                 },
                 cards: [
                     {
-                        title: "Self-Definition",
-                        text: "Articulating your layers. Not just hobbies, but what moves you, what hurts you, and where your boundaries lie."
+                        title: "Self-Definition (with prompts)",
+                        text: "Phrase your layers with guided prompts: what moves you, what hurts you, where your boundaries are. Depth tags set the expected gravity."
                     },
                     {
-                        title: "Peeling",
-                        text: "The core action. Exchanging life episodes layer by layer with trusted friends. A session of mutual disclosure that generates value."
+                        title: "Peeling Sessions",
+                        text: "Structured, timed mutual disclosure. Depth and reciprocity gates, with cooling-off to avoid forced re-trauma."
+                    },
+                    {
+                        title: "Reflection & Trust Ledger",
+                        text: "After each peel, record emotions and learnings. Builds a verifiable history of listening that travels with you."
                     }
                 ]
             },
@@ -60,11 +70,15 @@ export const translations = {
                 cards: [
                     {
                         title: "Weighted Incentives",
-                        text: "Not all stories are equal. We assign higher economic weight to heavier layers—trauma, poverty, and hardship. Reversing structural disadvantages by valuing the courage to share and recover."
+                        text: "Pillar Points = depth × hardship × reciprocity × listening minutes, with caps and cool-downs. Heavy stories are rewarded yet rate-limited."
                     },
                     {
                         title: "Trust Score",
-                        text: "A history of your \"Peeling\" sessions. It proves you have listened and been listened to. A new metric for the post-labor society to find true collaborators."
+                        text: "A non-transferable Onion SBT that logs sessions and selective disclosures. Surfaces reliable listeners for post-labor collaboration."
+                    },
+                    {
+                        title: "Safety Rails",
+                        text: "Daily/weekly caps, moderation + sentiment checks, and ZK/hashed sensitive data keep incentives healthy and privacy intact."
                     }
                 ]
             },
@@ -74,75 +88,107 @@ export const translations = {
                     {
                         phase: "Phase 1",
                         title: "Prototype & Validation",
-                        items: ["Closed Alpha Launch (Invite Only)", "Off-chain \"Pillar Points\" & SBT Mock", "UX Verification of \"Peeling\" Mechanics"]
+                        items: [
+                            "Closed alpha with real-life verification and invite tree",
+                            "Off-chain Pillar Points + mock SBT; depth-tag UX tuning",
+                            "Safety baseline: cooldowns, journaling prompts"
+                        ]
                     },
                     {
                         phase: "Phase 2",
                         title: "Economy & Safety",
-                        items: ["Daily Caps & Cooldown Implementation", "Moderation AI Tuning", "Onion Token (Testnet) Integration"]
+                        items: [
+                            "Moderation AI + peer review loops",
+                            "Testnet Onion Token with withdrawal caps",
+                            "Selectable disclosure & encrypted archives"
+                        ]
                     },
                     {
                         phase: "Phase 3",
                         title: "Expansion & Synergy",
-                        items: ["Mainnet Launch ($ONION)", "ZK / Selective Disclosure Layer", "Synergy Layer: Community Matching"]
+                        items: [
+                            "Mainnet launch ($ONION) with fiat on/off ramps",
+                            "Synergy Layer beta: purpose-first cohort formation",
+                            "Governance by verified listeners"
+                        ]
                     }
                 ]
             }
         },
-        footer: "© 2024 Tamanegi Project. All layers reserved.",
+        whitepaper: {
+            kicker: "Whitepaper",
+            title: "Tamanegi: Communication Economy & Synergy Layer",
+            lead: "The long-form narrative on why we reward peeling and how onion identities rewire community formation.",
+            meta: {
+                updated: "Updated: Dec 3, 2025",
+                length: "~12 min read",
+                format: "Primary language: Japanese. English summary available below."
+            }
+        },
+        footer: "© 2025 Tamanegi Project. All layers reserved.",
         backToHome: "← Back to Home"
     },
     jp: {
         hero: {
             title: "TAMANEGI",
-            subtitle: "信頼の層を剥がす。\n「オニオン・アイデンティティ」を可視化し、感情労働をトークン化するプロトコル。",
-            readWhitepaper: "ホワイトペーパーを読む"
+            badge: "コミュニケーション経済",
+            subtitle: "リアルで会った人だけと深く話し、その行為に報酬が生まれるクローズドネットワーク。\nオニオン・アイデンティティを可視化し、ピーリングを報酬化して、制約ではなく目的でつながる。",
+            readWhitepaper: "ホワイトペーパーを読む",
+            secondaryCta: "プロダクトの柱を見る"
         },
         sections: {
             gap: {
-                title: "構造的なギャップ",
+                title: "2つの構造的な歪み",
                 cards: [
                     {
-                        title: "制約によるコミュニティ",
-                        text: "学校や職場は、場所・試験・採用といった外的制約によって形成されています。私たちはしばしば、価値観の共鳴しない「箱」の中に閉じ込められています。"
+                        title: "制約で集められたコミュニティ",
+                        text: "学校・職場は試験や採用要件、地理といった制約で編成され、目的が響き合わないまま同じ箱に入れられます。"
                     },
                     {
-                        title: "評価されない繋がり",
-                        text: "傾聴、共感、精神的支柱となる行為は不可欠ですが、経済的には不可視です。社会には、深いコミュニケーションという労働を評価し、報いるメカニズムが欠けています。"
+                        title: "経済にならないコミュニケーション",
+                        text: "傾聴や共感、ケア労働は場を支えるのに給与や評価にはほぼ反映されません。深い対話を報いる仕組みが欠落しています。"
+                    },
+                    {
+                        title: "開示コストの高さ",
+                        text: "トラウマや文脈を共有することはリスクと時間を伴います。ガードレールがないと、人は層を隠し、誤解が構造化されます。"
                     }
                 ]
             },
             solution: {
-                title: "解決策",
+                title: "アーキテクチャ",
                 cards: [
                     {
                         title: "オニオン・アイデンティティ",
-                        text: "私たちは多層的な存在です。Tamanegiは、肩書きや学歴といった静的なラベルを超えて、あなたの価値観、トラウマ、願望を「層」として可視化します。"
-                    },
-                    {
-                        title: "シナジーレイヤー",
-                        text: "共鳴（レゾナンス）に基づいてコミュニティを再編します。強制された場所ではなく、内面の層の調和によって人々を繋ぎます。"
+                        text: "価値観・傷・境界線・願いを層として捉える多層的なプロフィール。肩書きだけでは届かない響きを可視化します。"
                     },
                     {
                         title: "コミュニケーション経済",
-                        text: "「ピーリング（皮むき）」に経済合理性を与えます。互いに向き合い、重荷を分かち合う行為そのものを、有形の資産へと変換します。"
+                        text: "ピーリング（相互開示）をトークン化。重い層ほど重みづけし、構造的不利を反転させるインセンティブを設計します。"
+                    },
+                    {
+                        title: "シナジーレイヤー",
+                        text: "オニオン・アイデンティティと相互作用の履歴をもとに、目的と共鳴からコミュニティを再編成するレイヤー。"
                     }
                 ]
             },
             product: {
-                title: "プロダクト",
+                title: "プロダクト: タマネギアプリ",
                 mainCard: {
-                    title: "リアルファースト、クローズドSNS",
-                    text: "リアルで会ったことのある人としか繋がれません。Tamanegiは出会いの代替ではなく、物理世界で形成された関係を深めるための「第二の層」です。信頼は身体的実存に根ざします。"
+                    title: "リアルファーストのクローズドSNS",
+                    text: "リアルで会ったことのある人だけがフレンドに。出会いの代替ではなく、現実で芽生えた信頼を深める“第二の層”です。"
                 },
                 cards: [
                     {
-                        title: "自己定義",
-                        text: "自分の層を言語化すること。単なる趣味ではなく、何に心を動かされ、何に傷つき、どこに境界線があるのかを定義します。"
+                        title: "自己定義（プロンプト付き）",
+                        text: "何に動かされ、何に傷つき、どこに境界があるかをプロンプトで言語化。深さタグで期待値を揃えます。"
                     },
                     {
-                        title: "ピーリング",
-                        text: "コアアクション。信頼できるフレンドと、人生のエピソードを層ごとに交換します。相互開示のセッションが価値を生み出します。"
+                        title: "ピーリングセッション",
+                        text: "深さと相互性を設定したタイムドセッション。クールダウン付きで、無理な再トラウマ化を防ぎます。"
+                    },
+                    {
+                        title: "リフレクションと信頼レジャー",
+                        text: "共有後に感情と学びを記録し、傾聴の履歴を可視化。あなたの信頼スコアとして蓄積されます。"
                     }
                 ]
             },
@@ -151,11 +197,15 @@ export const translations = {
                 cards: [
                     {
                         title: "重み付けされたインセンティブ",
-                        text: "すべての物語が等価なわけではありません。トラウマ、貧困、困難といった重い層には、より高い経済的重みを付与します。共有し回復する勇気を評価することで、構造的不利を反転させます。"
+                        text: "Pillarポイント＝深さ×辛さ×相互性×傾聴時間に上限とクールダウンを設定。重い物語は報いるが、濫用は抑制。"
                     },
                     {
                         title: "信頼スコア",
-                        text: "「ピーリング」セッションの履歴。それは、あなたが聴き、聴かれたことの証明です。ポスト労働社会において、真の協力者を見つけるための新しい指標です。"
+                        text: "譲渡不可のOnion SBTにセッションと開示選択を記録。傾聴できる人を可視化し、ポスト労働社会の新しい指標に。"
+                    },
+                    {
+                        title: "セーフティレール",
+                        text: "日次/週次上限とクールダウン、モデレーション＋感情チェック。センシティブデータはハッシュ化やZKで守ります。"
                     }
                 ]
             },
@@ -165,22 +215,44 @@ export const translations = {
                     {
                         phase: "Phase 1",
                         title: "プロトタイプ & 検証",
-                        items: ["クローズドα版ローンチ (招待制)", "オフチェーン「Pillar Points」& SBTモック", "「ピーリング」メカニクスのUX検証"]
+                        items: [
+                            "リアル確認＋招待ツリーによるクローズドα",
+                            "オフチェーンPillarポイントとSBTモック、深さタグのUX調整",
+                            "クールダウン・ジャーナリング導入で安全ベースライン構築"
+                        ]
                     },
                     {
                         phase: "Phase 2",
                         title: "経済圏 & 安全性",
-                        items: ["日次上限 & クールダウンの実装", "モデレーションAIのチューニング", "Onion Token (Testnet) 統合"]
+                        items: [
+                            "モデレーションAI + ピアレビューの二重チェック",
+                            "Onion Token（Testnet）と引き出し上限",
+                            "選択的開示と暗号化アーカイブ"
+                        ]
                     },
                     {
                         phase: "Phase 3",
                         title: "拡張 & シナジー",
-                        items: ["メインネットローンチ ($ONION)", "ZK / 選択的開示レイヤー", "シナジーレイヤー: コミュニティマッチング"]
+                        items: [
+                            "メインネットローンチ（$ONION）と法定通貨オン/オフランプ",
+                            "シナジーレイヤーβ: 目的起点のコホート形成",
+                            "信頼できる傾聴者によるガバナンス"
+                        ]
                     }
                 ]
             }
         },
-        footer: "© 2024 Tamanegi Project. All layers reserved.",
+        whitepaper: {
+            kicker: "ホワイトペーパー",
+            title: "タマネギ：コミュニケーション経済とシナジーレイヤー",
+            lead: "なぜピーリングを報酬化し、オニオン・アイデンティティで共同体を組み替えるのか。長文の背景と設計思想。",
+            meta: {
+                updated: "更新日: 2025年12月3日",
+                length: "読了目安: 約12分",
+                format: "主言語は日本語。英語サマリーを含みます。"
+            }
+        },
+        footer: "© 2025 Tamanegi Project. All layers reserved.",
         backToHome: "← ホームに戻る"
     }
 };

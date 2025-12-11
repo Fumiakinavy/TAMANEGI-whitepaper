@@ -1,6 +1,6 @@
 "use client";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Stars, Float } from "@react-three/drei";
+import { Stars, Float } from "@react-three/drei";
 import Onion from "./Onion";
 
 export default function Scene() {

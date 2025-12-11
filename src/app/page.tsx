@@ -49,6 +49,9 @@ export default function Home() {
         animate="visible"
         variants={staggerContainer}
       >
+        <motion.span className={styles.badge} variants={fadeInUp}>
+          {t.hero.badge}
+        </motion.span>
         <motion.h1 className={styles.title} variants={fadeInUp}>
           {t.hero.title}
         </motion.h1>
@@ -59,15 +62,19 @@ export default function Home() {
         >
           {t.hero.subtitle}
         </motion.p>
-        <motion.div style={{ marginTop: '2rem' }} variants={fadeInUp}>
+        <motion.div className={styles.heroActions} variants={fadeInUp}>
           <a href="/whitepaper" className={styles.buttonPrimary}>
             {t.hero.readWhitepaper}
+          </a>
+          <a href="#product" className={styles.buttonGhost}>
+            {t.hero.secondaryCta}
           </a>
         </motion.div>
       </motion.section>
 
       <motion.section
         className={styles.section}
+        id="gap"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
@@ -88,6 +95,7 @@ export default function Home() {
 
       <motion.section
         className={styles.section}
+        id="solution"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
@@ -108,6 +116,7 @@ export default function Home() {
 
       <motion.section
         className={styles.section}
+        id="product"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
@@ -132,6 +141,7 @@ export default function Home() {
 
       <motion.section
         className={styles.section}
+        id="tokenomics"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
@@ -152,6 +162,7 @@ export default function Home() {
 
       <motion.section
         className={styles.section}
+        id="roadmap"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
